@@ -1,56 +1,97 @@
-astunparse==1.6.3
+# =========================
+# Core Python & Utilities
+# =========================
+pip==21.3.1
+setuptools==59.4.0
+packaging
+future
+requests
+urllib3==1.25.11
+pyyaml
+addict
+yapf
+tabulate
+termcolor
+coloredlogs==15.0
+humanfriendly==10.0
+loguru==0.5.3
+tqdm
+joblib
+natsort
+
+# =========================
+# PyTorch (CUDA 11.7)
+# =========================
+torch==1.13.0
+torchvision==0.14.0
+torchaudio==0.13.0
+einops
+fvcore
+thop
+torchsummary==1.5.1
+
+# =========================
+# Vision & Image Processing
+# =========================
+opencv-python==4.5.3.56
+scikit-image
+scipy==1.4.1
+numpy
+matplotlib
+lpips
+kornia==0.6.7
+jpeg4py==0.1.4
+pypng==0.0.21
+SimpleITK
+medpy
+pycocotools==2.0.4
+
+# =========================
+# Diffusion / DL Utils
+# =========================
+timm==0.4.12
+tensorboard
+tensorboardX
+submitit
+yacs
+pytest
+chardet
+lmdb
+h5py
+gdown==4.2.0
+
+# =========================
+# Mamba / Triton (Optional)
+# =========================
+triton==2.0.0
+causal_conv1d==1.0.0
+mamba_ssm==1.0.1
+
+# =========================
+# Optimization / Math
+# =========================
+cvxpy==1.1.18
+ecos==2.0.8
+osqp==0.6.2.post4
+qdldl==0.1.5.post0
+scs==3.0.0
+
+# =========================
+# Misc / IO / Cloud
+# =========================
 boto3==1.18.47
 botocore==1.21.47
-cffi==1.15.0
-coloredlogs==15.0
-configargparse==1.5.3
-cupy-cuda102==7.8.0
-cvxpy==1.1.18
-docutils==0.15.2
-ecos==2.0.8
-fastrlock==0.8
-flatbuffers==2.0
-gast==0.3.3
-gdown==4.2.0
-google-pasta==0.2.0
-grpcio==1.40.0
-humanfriendly==10.0
+s3transfer==0.5.0
+smart-open==5.2.1
+redis==3.5.3
 influxdb==5.3.1
-jmespath==0.10.0
-jpeg4py==0.1.4
+refile==5.8.3.post1
+nori2==1.11.8
+python-statemachine==0.8.0
+
+# =========================
+# Jupyter (Optional)
+# =========================
 jupyterlab==1.0.0
 jupyterlab-server==1.0.0
-keras==2.7.0
-keras-preprocessing==1.1.2
-libclang==12.0.0
-loguru==0.5.3
-ninja==1.10.2.2
-nori2==1.11.8
-opencv-python==4.5.3.56
-opt-einsum==3.3.0
-osqp==0.6.2.post4
-pip==21.3.1
-protobuf==3.18.0
-pycocotools==2.0.4
-pypng==0.0.21
-python-statemachine==0.8.0
-qdldl==0.1.5.post0
-redis==3.5.3
-refile==5.8.3.post1
-s3transfer==0.5.0
-scipy==1.4.1
-scs==3.0.0
-setuptools==59.4.0
-smart-open==5.2.1
-tabulate==0.8.9
-tensorboard==2.2.2
-tensorflow==2.2.0
-tensorflow-estimator==2.2.0
-tensorflow-io-gcs-filesystem==0.22.0
-termcolor==1.1.0
-timm==0.4.12
-torch==1.8.1
-torchsummary==1.5.1
-torchvision==0.9.1
-urllib3==1.25.11
-kornia==0.6.7
+docutils==0.15.2
